@@ -1,0 +1,76 @@
+.logo__image {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom:10px;
+	margin-top:10px;
+	max-width: 200px;
+}
+
+.logo__buttons {
+	min-height: 1px;
+	overflow: hidden;
+	margin: 10px 0;
+}
+
+
+#weddings_gallery .inside {
+	overflow: hidden;
+}
+
+.gallery__container {
+	clear:both;
+	overflow: hidden;
+}
+
+.gallery__add {
+	margin:10px 0 !important;
+	clear: both;
+}
+
+.gallery__point {
+	margin:20px 20px 20px 0;
+	cursor:move;
+	width:150px;
+	height:150px;
+	float: left;
+	position: relative;
+	border:2px solid #efefef;
+}
+
+
+.gallery__image {
+	max-width:100%;
+	max-height:160px;
+}
+
+.gallery__delete {
+	margin-top:-10px;
+	display: inline-block;
+	padding:2px;
+	width: 20px;
+	height: 20px;
+	background:#efefef;
+	position: absolute;
+	color:red;
+	border-radius:50%;
+	text-align: center;
+	top:-6px;
+	text-decoration: none;
+	font-size: 20px;
+	border:2px solid red;
+	z-index:2;
+	cursor: pointer;
+	left: auto;
+    right: -16px;
+}
+
+.gallery__delete:hover {
+	color:red;
+	opacity: 0.6;
+}
+
+.my-error {
+	border-color:red !important;
+	box-shadow: 0 0 10px red !important;
+}
