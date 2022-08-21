@@ -1,2 +1,0 @@
-
-  $("#viewport").html(makeQuiz(quiz));
