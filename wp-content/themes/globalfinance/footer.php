@@ -66,7 +66,11 @@ function makePhoneLinks($arr, $class = 'text-white text-bold')
             <p>Бухгалтерский учет<br />и аудит
             «Global Finance» ®</p><p>
             <?php 
-            print_r($company['postcode'] . ', г. '.$company['city'][0] . ',<br />' . $company['address']);
+
+            $postcode = $company['postcode'] ? $company['postcode'] . ', ' : '';
+            $address = $company['address'] ? ',<br />' . $company['address'] : '';
+
+            print_r( $postcode . 'г. ' . $company['city'][0] . $address);
             ?></p><p>
             <?=makePhoneLinks($company['phones'], 'text-white text-bold')?>
         </p><p>

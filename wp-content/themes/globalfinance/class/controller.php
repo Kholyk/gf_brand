@@ -29,7 +29,7 @@ function createPhoneLink($source, $class = '', $pattern = '+7 (XXX) XXX-XX-XX')
     $patternSymbols = str_split($pattern);
     $phoneSymbols = str_split($source);
   
-    $phoneSymbols = array_slice($phoneSymbols, 2);
+    $phoneSymbols = array_slice($phoneSymbols, 1);
 
     $digits = array_filter(
         $patternSymbols,
