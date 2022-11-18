@@ -13,7 +13,7 @@ const quiz = {
             answers: {
                          'УСН (доход)': 0,
                          'УСН (доход минус расход)': 0,
-                         'ЕНВД': 0,
+                         'Патент': 0,
                          'ОБЩАЯ': 0,
                      }
         },
@@ -29,31 +29,31 @@ const quiz = {
                          'Услуги': {
                             'УСН (доход)': calcPrices[0],
                             'УСН (доход минус расход)': calcPrices[1],
-                            'ЕНВД': calcPrices[2],
+                            'Патент': calcPrices[2],
                             'ОБЩАЯ': calcPrices[3],
                         },
                          'Торговля': {
                             'УСН (доход)': calcPrices[4],
                             'УСН (доход минус расход)': calcPrices[5],
-                            'ЕНВД': calcPrices[6],
+                            'Патент': calcPrices[6],
                             'ОБЩАЯ': calcPrices[7],
                         },
                          'Питание': {
                             'УСН (доход)': calcPrices[8],
                             'УСН (доход минус расход)': calcPrices[9],
-                            'ЕНВД': calcPrices[10],
+                            'Патент': calcPrices[10],
                             'ОБЩАЯ': calcPrices[11],
                         },
                          'Производство': {
                             'УСН (доход)': calcPrices[8],
                             'УСН (доход минус расход)': calcPrices[9],
-                            'ЕНВД': calcPrices[10],
+                            'Патент': calcPrices[10],
                             'ОБЩАЯ': calcPrices[11],
                         },
                          'Строительство': {
                             'УСН (доход)': calcPrices[8],
                             'УСН (доход минус расход)': calcPrices[9],
-                            'ЕНВД': calcPrices[10],
+                            'Патент': calcPrices[10],
                             'ОБЩАЯ': calcPrices[11],
                         },
                      }
