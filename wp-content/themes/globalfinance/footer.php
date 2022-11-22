@@ -148,7 +148,7 @@ $("#callback_phone").on('click', event => {
 <!-- API Yandex maps -->
 <?php
     $mapArray = $company['map'];
-    $mapProps['geo'] = $mapArray['geo'];
+    $mapProps['geo'] = explode(', ', $mapArray['geo']);
     $mapProps['zoom'] = isset($mapArray['zoom']) ? $mapArray['zoom'] : 10;
     $mapProps['center'] = isset($mapArray['center']) ? $mapArray['center'] : $mapProps['geo'];
     // print_r($mapProps);

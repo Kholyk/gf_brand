@@ -5,23 +5,26 @@
 
 $tempDir = get_template_directory_uri();
 
+$domain = 'gfmsk-buhprofit.ru';
+$mailbox = "info@$domain";
+
 // Main company info
 $company = [
-    'city' => ['Мурманск', 'в Мурманске'],
-    'postcode' => '183038',
-    'name' => ['ООО', 'ФИНАНСКОНСАЛТ'],
-    'phones' => [['+79113006464', '+7 (XXX) XXX-XX-XX'],['+78152706464', '+7 (XXXX) XX-XX-XX']],
-    'whatsapp' => ['79113006464', 'Наш WhatsApp'],
-    'worktime' => ['Режим работы:', 'ПН-ПТ: 9:00 - 18:00'],
-    'domain' => 'finance51.ru',
-    'mailbox' => 'info@finance51.ru',
-    'ym' => '000000000',
+    'city' => ['Москва', 'в Москве'],
+    'name' => ['ИП', 'Юрьев Юрий Александрович'],
+    'phones' => [['+79161201954', '+X (XXX) XXX-XX-XX']],
+    'whatsapp' => ['79161201954', 'Наш WhatsApp'],
+    'postcode' => '108850',
     'address' => 'ул. Папанина 47, офис 1',
-    'reg' => 'ИНН: 5190061537,<br />ОГРН: 1165190057647.',
+    'reg' => 'ИНН: 540529598486,<br />ОГРН: 322774600651653.',
     'map' => [
-        'geo' => ['68.980833', '33.095741'],
+        'geo' => '55.635747, 37.314966',
         'zoom' => '14',
     ],
+    'ym' => '000000000',
+    'domain' => $domain,
+    'mailbox' => $mailbox,
+    'worktime' => ['Режим работы:', 'ПН-ПТ: 9:00 - 18:00'],
 ];
 
 // Second (lower) navigation bar
@@ -54,7 +57,7 @@ $navbarLinks = [
 
 $countries = [
     ['/images/flags/4x3/ru.svg', 'Россия'],
-    ['/images/flags/4x3/by.svg', 'Белоруссия'],
+    ['/images/flags/4x3/by.svg', 'Беларусь'],
     ['/images/flags/4x3/kz.svg', 'Казахстан'],
     ['/images/flags/4x3/uz.svg', 'Узбекистан'],
     ['/images/flags/4x3/ki.svg', 'Киргизия'],
