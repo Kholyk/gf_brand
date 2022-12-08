@@ -60,7 +60,7 @@ $countries = [
     ['/images/flags/4x3/by.svg', 'Беларусь'],
     ['/images/flags/4x3/kz.svg', 'Казахстан'],
     ['/images/flags/4x3/uz.svg', 'Узбекистан'],
-    ['/images/flags/4x3/ki.svg', 'Киргизия'],
+    ['/images/flags/4x3/ki.svg', 'Кыргызстан'],
 ];
 
 $footerLinks = [
