@@ -14,7 +14,6 @@ $company_only_phone = '79991112233';
 $company = [
     'city' => ['Москва', 'в Москве'],
     'name' => ['ИП', 'Юрьев Юрий Александрович'],
-    'only_phone' => '79991112233',
     'phones' => [["+$company_only_phone", '+X (XXX) XXX-XX-XX']],
     'whatsapp' => ["$company_only_phone", 'Наш WhatsApp'],
     // Enable following lines if address exists
