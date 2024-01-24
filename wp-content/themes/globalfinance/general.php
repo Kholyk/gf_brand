@@ -5,17 +5,21 @@
 
 $tempDir = get_template_directory_uri();
 
-$domain = 'gfmsk-buhprofit.ru';
+$domain = 'mydomain.ru';
 $mailbox = "info@$domain";
+
+$company_only_phone = '79991112233';
 
 // Main company info
 $company = [
     'city' => ['Москва', 'в Москве'],
     'name' => ['ИП', 'Юрьев Юрий Александрович'],
-    'phones' => [['+79161201954', '+X (XXX) XXX-XX-XX']],
-    'whatsapp' => ['79161201954', 'Наш WhatsApp'],
-    'postcode' => '108850',
-    'address' => 'ул. Папанина 47, офис 1',
+    'only_phone' => '79991112233',
+    'phones' => [["+$company_only_phone", '+X (XXX) XXX-XX-XX']],
+    'whatsapp' => ["$company_only_phone", 'Наш WhatsApp'],
+    // Enable following lines if address exists
+    // 'postcode' => '108850',
+    // 'address' => 'ул. Папанина 47, офис 1',
     'reg' => 'ИНН: 540529598486,<br />ОГРН: 322774600651653.',
     'map' => [
         'geo' => '55.635747, 37.314966',
@@ -67,7 +71,7 @@ $footerLinks = [
     'Наши партнёры' => '/partner',
     'Штат бухгалтеров' => '/staff',
     // 'Вакансии' => '/category/vacancies',
-    'Согласие на обработку ПД' => '/opd',
+    'Согласие на обработку ПД' => '/sopd',
     // 'Реквизиты компании' => '/reg',
     // 'Сертификат соответствия' => '/cert',
     // 'СОУТ'                      => '/sout',
