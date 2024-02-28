@@ -46,7 +46,8 @@ if ($daysLeft == 1 || $daysLeft == 0 || $daysLeft == 21 || $daysLeft == 31) {
 
     $slides = new WP_Query(
         [
-        'category_name' => 'slides-main-page'
+            'category_name' => 'slides-main-page',
+            'orderby' => ['date' => 'ASC']
         ]
     );
 
